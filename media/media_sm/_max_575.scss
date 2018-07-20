@@ -1,0 +1,8 @@
+//media maxsize 575px
+@include media($max_sm) 
+{
+	body
+	{
+		background-color:#0f0;
+	}
+}
