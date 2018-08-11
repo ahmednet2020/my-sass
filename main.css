@@ -10,9 +10,6 @@
   margin: 0;
   padding: 0;
 }
-*:focus {
-  outline: 2px solid #39b3f1;
-}
 
 img {
   max-width: 100%;
@@ -50,11 +47,8 @@ span {
   padding: 0;
 }
 
-.bg-blue {
-  background-color: #e6f8fe;
-}
-
 /*=== end default style */
+/*===== start font style ===== */
 html, body {
   font-family: "Raleway", sans-serif;
 }
@@ -396,46 +390,6 @@ h6 {
   }
 }
 /* start media style */
-@media all and (max-width: 1200px) {
-  body {
-    background-color: #f0f;
-  }
-}
-@media all and (min-width: 992px) {
-  body {
-    background-color: #fff;
-  }
-}
-@media all and (max-width: 768px) {
-  body {
-    background-color: #000;
-  }
-}
-@media all and (max-width: 575px) {
-  body {
-    background-color: #0f0;
-  }
-}
-@media all and (min-width: 1200px) {
-  body {
-    background-color: #f00;
-  }
-}
-@media all and (min-width: 992px) {
-  body {
-    background-color: #fff;
-  }
-}
-@media all and (min-width: 768px) {
-  body {
-    background-color: #00f;
-  }
-}
-@media all and (min-width: 576px) {
-  body {
-    background-color: #ff0;
-  }
-}
 @media print {
   * {
     background: transparent !important;

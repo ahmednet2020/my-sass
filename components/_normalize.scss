@@ -6,10 +6,6 @@
     outline: 0;
     margin:0;
     padding:0;
-	&:focus
-	{
-		outline:2px solid $main-color
-	}
 }
 img
 {
@@ -47,9 +43,4 @@ span
     margin:0;
     padding:0;
 }
-.bg-blue
-{
-    background-color:$main-color2;
-}
-//body of page animtion 
 /*=== end default style */
